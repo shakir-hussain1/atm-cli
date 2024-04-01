@@ -78,4 +78,4 @@ else if(operationAns.operation === "check balance"){
 else{
     console.log("Wrong Pin Number")
 }
-console.log("👋The End"🙏)
+console.log("The End")

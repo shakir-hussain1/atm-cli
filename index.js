@@ -1,4 +1,5 @@
 #! /usr/bin/env node
+console.log("Welcome to ATM");
 import inquirer from "inquirer";
 let myBalance = 10000;
 const myPin = 4321;
@@ -55,3 +56,4 @@ else if (operationAns.operation === "check balance") {
 else {
     console.log("Wrong Pin Number");
 }
+console.log("👋The End");
